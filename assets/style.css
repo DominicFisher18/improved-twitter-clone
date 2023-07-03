@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-twitter {
+    padding: 20px 20px 10px 20px;
+    color: rgb(29, 155, 240);
+    font-size: 30px;
+}
+
+.sidebar-tabs {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sidebar-tabs h2 {
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-family: Arial;
+}
+
+.sidebar-tabs:hover {
+    background-color: lightgrey;
+    border-radius: 25px;
+    transition: .1s ease-in-out;
+}
+
+.material-symbols-outlined {
+    padding: 10px;
+}
+
+.sidebar-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-tweet-button,
+.sidebar-schedule-tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+}
+
+.sidebar-tweet-button {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
