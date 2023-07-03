@@ -17,6 +17,12 @@ body {
     font-size: 30px;
 }
 
+.sidebar {
+    border-right: 1px solid lightgray;
+    padding-right: 30px;
+    flex: .2;
+}
+
 .sidebar-tabs {
     display: flex;
     align-items: center;
@@ -60,4 +66,102 @@ body {
 .sidebar-tweet-button {
     margin-bottom: 15px;
     margin-top: 20px;
+}
+
+.feed {
+    border-right: 1px solid lightgrey;
+    flex: 0.5;
+    overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed-header {
+    position: sticky;
+    z-index: 100;
+    /* display: flex;
+    flex-direction: column; */
+    border-bottom: 1px solid lightgrey;
+}
+
+.feed-header h2 {
+    padding: 15px;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+.header-button-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feed-header-btn {
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: 1;
+}
+
+.feed-header-btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.tweet-content {
+    display: flex;
+    align-items: center;
+}
+
+.feed-tweet {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.feed-tweet span {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.feed-tweet input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.feed-tweet button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.feed-show-tweets {
+    border-bottom: 1px solid lightgrey;
+}
+
+.feed-show-tweets:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.feed-show-tweets p {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 0px;
+    font-family: Arial;
+    color: rgb(29, 155, 240);
 }
