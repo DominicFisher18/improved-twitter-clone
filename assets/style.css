@@ -68,6 +68,25 @@ body {
     margin-top: 20px;
 }
 
+.sidebar-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.display-name {
+    font-weight: bold;
+}
+
+.display-handle {
+    color: rgb(131, 130, 130);
+}
+
+.three-dots span {
+    display: flex;
+    margin-left: 60px
+}
+
 .feed {
     border-right: 1px solid lightgrey;
     flex: 0.5;
@@ -136,6 +155,21 @@ body {
     font-size: 20px;
 }
 
+.tweet-content-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.tweet-content-bottom-left {
+    margin-left: 80px;
+}
+
+.tweet-content-bottom-left span {
+    color: rgb(29, 155, 240);
+    font-size: 18px;
+    padding: 4px;
+}
+
 .feed-tweet button {
     background-color: rgb(29, 155, 240);
     color: white;
@@ -164,4 +198,42 @@ body {
     padding: 14px 0px;
     font-family: Arial;
     color: rgb(29, 155, 240);
+}
+
+.post-one-header-profile-pic span {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.post-one-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-one-header-handle {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.post-one-header-dots span{
+    display: flex;
+    margin-left: 230px;
+}
+
+.post-one-header-name {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.post-one-header-name span {
+    color: rgb(168, 168, 168);
+    font-weight: 500;
+}
+
+.post-one-caption {
+    margin-left: 70px;
+    padding-top: 0px;
 }
