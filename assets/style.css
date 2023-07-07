@@ -200,6 +200,10 @@ body {
     color: rgb(29, 155, 240);
 }
 
+.post-one:hover {
+    background-color: rgb(226, 226, 226);
+}
+
 .post-one-header-profile-pic span {
     font-size: 30px;
     padding: 20px;
@@ -236,4 +240,18 @@ body {
 .post-one-caption {
     margin-left: 70px;
     padding-top: 0px;
+}
+
+.post-one-img-div {
+    height: 400px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.post-one-img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
 }
