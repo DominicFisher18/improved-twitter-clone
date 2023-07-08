@@ -11,6 +11,10 @@ body {
     margin-right: auto;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .fa-twitter {
     padding: 20px 20px 10px 20px;
     color: rgb(29, 155, 240);
@@ -39,8 +43,8 @@ body {
 
 .sidebar-tabs:hover {
     background-color: lightgrey;
-    border-radius: 25px;
     transition: .1s ease-in-out;
+    border-radius: 25px;
 }
 
 .material-symbols-outlined {
@@ -292,4 +296,159 @@ body {
 
 .post-two-img-div {
     height: 400px;
+}
+
+.right-column {
+    flex: .28;
+}
+
+.search-twitter {
+    display: flex;
+    margin-top: 5px;
+    background-color: #e6ecf0;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+
+.search-twitter span {
+    margin-left: 10px;
+}
+
+.search-box {
+    border: none;
+    outline: none;
+    background-color: #e6ecf0;
+    font-family: Arial;
+    font-size: 14px;
+    
+}
+
+.get-verified-box {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #e6ecf0;
+    font-family: Arial;
+    border-radius: 15px;
+}
+
+.get-verified {
+    padding-top: 12px;
+    padding-left: 12px;
+    font-weight: 750;
+}
+
+.verified-text {
+    padding-top: 10px;
+    padding-left: 12px;
+    font-weight: 600;
+}
+
+.verified-button {
+    margin-top: 14px;
+    margin-left: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.whats-happening {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #e6ecf0;
+    font-family: Arial;
+    border-radius: 15px;
+}
+
+.whats-happening-title {
+    padding-top: 10px;
+    padding-left: 12px;
+    font-weight: 750;
+}
+
+.wh-one,
+.wh-two,
+.wh-three {
+    margin-top: 20px;
+    padding-left: 12px;
+}
+
+.wh-one {
+    padding-bottom: 30px;
+}
+
+.wh-p-one {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.wh-p-two {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.wh-p-three {
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.wh-three-p-two {
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.wh-four,
+.show-more {
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    color: rgb(29, 155, 240);
+}
+
+.who-to-follow {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #e6ecf0;
+    font-family: Arial;
+    border-radius: 15px;
+}
+
+.follow-title {
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 20px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+
+.recommended-follower {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.recommended-follower:hover {
+    background-color: lightgrey;
+    transition: .1s ease-in-out;
+}
+
+.sidebar-img span {
+    font-size: 30px;
+}
+
+.recommended-follower-button {
+    display: flex;
+    margin-left: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
 }
